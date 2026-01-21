@@ -6,7 +6,7 @@ __pycache__/
 *.pyo
 
 ############################
-# Virtual environments
+# Virtual environments & secrets
 ############################
 venv/
 .env
@@ -18,9 +18,12 @@ venv/
 backend.db
 
 ############################
-# Models (large files – not pushed)
+# Large / external models (DO NOT PUSH)
 ############################
-models/
+models/vit_deepfake.pth
+models/signet.pth
+models/layoutlmv2/
+models/layoutlmv3/
 
 ############################
 # OS junk
